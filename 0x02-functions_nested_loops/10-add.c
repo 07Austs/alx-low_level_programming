@@ -1,47 +1,14 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * times_table -prints tables
- *
+ * add -prints add two numbers
+ *@i: print int i
+ *@k: print int k
  * Return: Always 0.
  */
-void times_table(void)
+
+int add(int i, int k)
 {
-int a;
-int b;
-int c;
-for (a = 0; a <= 9; a++)
-{
-for (b = 0; b <= 9; b++)
-{
-c = a * b;
-if ((c / 10) == 0)
-{
-if (b == 0)
-{
-putchar ('0');
-}
-if (b != 0)
-{
-putchar (' ');
-putchar ((c % 10) + '0');
-}
-if (b < 9)
-{
-putchar(',');
-putchar (' ');
-}
-}
-else
-{
-putchar ((c / 10) + '0');
-putchar ((c % 10) + '0');
-if (b < 9)
-{
-putchar(',');
-putchar (' ');
-}
-}
-}
-putchar ('\n');
-}
+return (i + k);
 }
