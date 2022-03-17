@@ -8,7 +8,14 @@
  *@k: print int k
  * Return: Always 0.
  */
-int add(int i; int k)
+int main(void)
 {
-return (i + k);
+int n;
+int y;
+int x;
+
+n=add(y,x);
+printf("%d\n", n);
+return (0);
 }
+
