@@ -11,10 +11,8 @@
 int main(void)
 {
 int n;
-int y;
-int x;
 
-n=add(y,x);
+n= add(50,10);
 printf("%d\n", n);
 return (0);
 }
