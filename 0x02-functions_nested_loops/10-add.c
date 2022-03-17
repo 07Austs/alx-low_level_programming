@@ -12,7 +12,7 @@ int main(void)
 {
 int n;
 
-n= add(50,10);
+n= add(50, 10);
 printf("%d\n", n);
 return (0);
 }
